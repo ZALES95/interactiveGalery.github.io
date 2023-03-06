@@ -1,0 +1,81 @@
+{
+	"images": [
+		{
+			"name": "kobieta",
+			"description": "Kobieta na łące",
+			"category": "natura",
+			"url": "../dist/img/konieta-trawnik.jpg",
+			"id": 1
+		},
+		{
+			"name": "Łódka",
+			"description": "Łódka na jeziorze",
+			"category": "natura",
+			"url": "../dist/img/lodka.jpg",
+			"id": 2
+		},
+		{
+			"name": "jezioro",
+			"description": "piękne jezioro o zachodzie słońca",
+			"category": "natura",
+			"url": "../dist/img/jezioro.jpg",
+			"id": 3
+		},
+		{
+			"name": "łąka",
+			"description": "piękne kwiatki na łące",
+			"category": "kwiatki",
+			"url": "../dist/img/kwiatki.jpg",
+			"id": 4
+		},
+		{
+			"name": "kwiatki",
+			"description": "jesienne kwiaty",
+			"category": "kwiatki",
+			"url": "../dist/img/kwiatki2.jpg",
+			"id": 5
+		},
+		{
+			"name": "Dzieci",
+			"description": "dzieci grające w piłkę",
+			"category": "piłka nożna",
+			"url": "../dist/img/dzieci.jpg",
+			"id": 6
+		},
+		{
+			"name": "piłka",
+			"description": "piłka na trawie",
+			"category": "piłka nożna",
+			"url": "../dist/img/pilka.jpg",
+			"id": 7
+		},
+		{
+			"name": "Stadion",
+			"description": "Stadion piłkarski z kibicami",
+			"category": "piłka nożna",
+			"url": "../dist/img/stadion.jpg",
+			"id": 8
+		},
+		{
+			"name": "Zamek",
+			"description": "Zamek o zachodzie słońca",
+			"category": "zamki",
+			"url": "../dist/img/zamek1.jpg",
+			"id": 9
+		},
+		{
+			"name": "Telefon",
+			"description": "Zamek w telefonie",
+			"category": "zamki",
+			"url": "../dist/img/zamek2.jpg",
+			"id": 10
+		},
+		{
+			"name": "niebo",
+			"description": "Zamek w niebie",
+			"category": "zamki",
+			"url": "../dist/img/zamek3.jpg",
+			"id": 11
+		}
+	]
+}

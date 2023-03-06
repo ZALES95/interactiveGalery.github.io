@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+     <meta charset="UTF-8">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Projekt 1</title>
+     <meta name="description" content="Mundial 2022, Katar, Piłka Nożna">
+     <meta name="keywords" content="słowa kluczowe">
+     <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/f5d39d5d44.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+
+<body>
+
+     <div class="body-shadow"></div>
+
+     <nav class="nav">
+          <input type="text" class="searchbar" placeholder="Wyszukaj po nazwie lub opisie">
+          <select id="photo-category">
+               <option value="0" selected disabled>- wybierz -</option>
+               <option value="2">wybrane</option>
+               <option value="3">wszystkie</option>
+               <option value="1">natura</option>
+               <option value="1">kwiatki</option>
+               <option value="1">piłka nożna</option>
+               <option value="1">zamki</option>
+          </select>
+     </nav>
+
+     <main class="main">
+          <h2 class="photo-info">Wybrane zdjęcia</h2>
+          <div class="photo-box">
+               <!-- <div class="photo"><img src="../dist/img/jezioro.jpg" alt=""></div>
+               <div class="photo"><img src="../dist/img/jezioro.jpg" alt=""></div>
+               <div class="photo"><img src="../dist/img/jezioro.jpg" alt=""></div>
+               <div class="photo"><img src="../dist/img/jezioro.jpg" alt=""></div>
+               <div class="photo"><img src="../dist/img/jezioro.jpg" alt=""></div>
+               <div class="photo"><img src="../dist/img/dzieci.jpg" alt=""></div> -->
+          </div>
+
+
+     </main>
+
+     <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+               <!-- <div class="carousel-item active">
+                    <img src="../dist/img/kwiatki.jpg" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                    <img src="../dist/img/stadion.jpg" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                    <img src="../dist/img/lodka.jpg" class="d-block w-100" alt="...">
+               </div> -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+          </button>
+     </div>
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+          </script>
+
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+     <script src="dist/js/main.min.js"></script>
+
+</body>
+
+</html>
